@@ -38,16 +38,13 @@
               <th>Design</th>
             </tr>
             <td align="center">
-                <input type="checkbox" name="Projects" placeholder="Projects" checked="True">
+              <input type="checkbox" id="Technical" value="on">
             </td>
             <td align="center">
-              <input type="checkbox" name="Technical" placeholder="Projects"  checked="True">
+              <input type="checkbox" id="Management" value="on">
             </td>
             <td align="center">
-              <input type="checkbox" name="Management" placeholder="Projects"  checked="True">
-            </td>
-            <td align="center">
-              <input type="checkbox" name="Design" placeholder="Projects" checked="True">
+              <input type="checkbox" id="Design" value="on">
             </td>
           </table>
         <br>
@@ -60,4 +57,11 @@
       </div>
         </div>       
 </body> 
+    <script>
+        function get_checks(){
+            var tech = document.getElementByID('Technical').value
+            var man = document.getElementByID('Management').value
+            var des = document.getElementByID('Design').value
+            
+    </script>
 </html> 
